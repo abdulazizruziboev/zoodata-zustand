@@ -21,7 +21,7 @@ export default function App() {
           Hayvon qo'shish
         </Button>
       </div>
-      <div className="max-w-[1440px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+      <div className="max-w-[1440px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto">
         {list.length>0&&list.map(el=>(
           <AnimalCard about={el} key={el.id}/>
         )) || <div className="flex flex-col items-center min-h-[65vh] items-center justify-center col-span-full mx-auto">
